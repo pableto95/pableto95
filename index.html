@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+	<!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
@@ -73,7 +73,33 @@ background-color:black;
 		</ol>
 		
 	<h3>Tabla de animales domésticos más comunes</h3>	  
-	<table summary="Los animales domésticos más comunes">
+	
+<table summary="Los animales domésticos más comunes">
+table {
+   width: 100%;
+   border: 1px solid #000;
+}
+th, td {
+   width: 25%;
+   text-align: left;
+   vertical-align: top;
+   border: 1px solid #000;
+   border-collapse: collapse;
+   padding: 0.3em;
+}
+caption {
+   padding: 0.3em;
+}
+table {
+   border-collapse: separate;
+   border-spacing: 5px;
+   background: #000 url("gradient.gif") bottom left repeat-x;
+   color: #fff;
+}
+td, th {
+   background: #fff;
+   color: #000;
+}
   <caption>Un resumen de los animales domésticos</caption>
   <thead>
     <tr>
@@ -101,6 +127,7 @@ background-color:black;
       <td>Loros</td>
      
     </tr>
+    
 </table>
 	  
     </body>
